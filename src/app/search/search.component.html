@@ -1,0 +1,27 @@
+<form id="msform">
+  <fieldset>
+  <mat-stepper id="progressbar">
+    <mat-step class="step" label="Step 1">
+      <input matInput placeholder="0000-0000" required>
+      <mat-label class="fs-subtitle">Enter your track number</mat-label>
+      <div>
+        <button mat-button matStepperNext type="button" class="next action-button">Next</button>
+      </div>
+    </mat-step>
+    <mat-step class="step" label="Step 2">
+      <input matInput placeholder="123456789" required>
+      <mat-label class="fs-subtitle">Confirm your ID number</mat-label>
+      <div>
+        <button mat-button matStepperPrevious type="button" class="previous action-button">Back</button>
+        <button mat-button matStepperNext type="button" class="next action-button">Next</button>
+      </div>
+
+    </mat-step>
+    <mat-step class="step" label="Step 3">
+      <p class="fs-subtitle">Your results</p>
+      <button mat-button matStepperPrevious type="button" class="previous action-button">Back</button>
+   
+    </mat-step>
+  </mat-stepper>
+</fieldset>
+</form>

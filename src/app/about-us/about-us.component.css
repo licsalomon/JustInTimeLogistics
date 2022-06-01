@@ -1,0 +1,14 @@
+mat-grid-tile {
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    max-width:max-content;
+    max-height: 100%;
+}

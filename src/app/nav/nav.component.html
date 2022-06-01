@@ -1,0 +1,5 @@
+
+<nav mat-tab-nav-bar >
+    <a mat-tab-link *ngFor="let link of links; index as i" [href]="link" (click)="activeLink = link"
+      [active]="activeLink == link"> {{titles[i]}} </a>
+  </nav>

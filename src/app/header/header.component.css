@@ -1,0 +1,13 @@
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: montserrat;
+    text-align: center;
+    color: #2C3E50;
+}
+mat-toolbar {
+    align-items: center;
+    text-align: center;
+    display:grid;
+
+}
