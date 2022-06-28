@@ -1,3 +1,8 @@
+FrontEnd Project developed in Angular v13, and with Angular Material.
+Deployed in Netlify:
+https://jit-justintimelogistic.netlify.app
+
+
 # JustInTimeLogistics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
